@@ -1,0 +1,9 @@
+.mat-toolbar.mat-primary {
+    background: #005151;
+    color: #fff;
+    justify-content: center;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    height: 45px;
+}

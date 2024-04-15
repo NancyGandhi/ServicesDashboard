@@ -1,0 +1,92 @@
+table {
+  width: 100%;
+}
+
+.content {
+  /* display: flex;
+  justify-content: center; */
+  padding: 10px;
+  margin: 10px;
+
+  .left-content {
+    float: left;
+    margin: 10px
+  }
+
+  .right-content {
+    float: right;
+    margin: 10px;
+  }
+}
+
+.allstudents-container {
+  padding: 20px 0 0 0;
+  margin-left: 20px;
+}
+
+.details-container {
+  padding: 10px;
+}
+
+.mat-row:hover {
+  background-color: #acebe3;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+tr.example-detail-row {
+  height: 0;
+}
+
+.mat-column-expandedDetail:hover {
+  background-color: white;
+  color: #005151;
+  cursor: auto;
+  font-weight: 500;
+}
+
+.example-element-detail {
+  overflow: hidden;
+
+  .status-design {
+    padding: 1.25rem 0 1.25rem 0;
+    .button-cylinder {
+      box-shadow: none;
+    }
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    .left-content {
+        float: left;
+    }
+
+    .right-content {
+        float: right;
+    }
+  }
+
+  .mat-header-row {
+    background-color: white;
+    color: #005151;
+    font-weight: 500;
+  }
+
+  .mat-row:hover {
+    background-color: white;
+    cursor: auto;
+    font-weight: 500;
+  }
+
+  .mat-header-cell {
+    color: #005151;
+  }
+
+  .details-table {
+    margin: 0 0 20px 0;
+  }
+
+}
